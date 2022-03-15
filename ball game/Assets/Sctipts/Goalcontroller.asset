@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Goalcontroller
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":191.5227,"y":76.73676},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-154.0,"y":-8.0},"guid":"ec5c7b4e-925e-4c96-bd7a-61671af0d648","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter2D","$id":"9"},{"defaultValues":{},"position":{"x":76.0,"y":-8.0},"guid":"87b2cfe1-1a45-4903-8ffd-c573cebe1cbb","$version":"A","$type":"Unity.VisualScripting.Once","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Gamemanager","$type":"System.String"}},"position":{"x":54.0,"y":150.0},"guid":"39ab22d5-7276-4a75-8dc6-4dda3e091930","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Win","$type":"System.String"},"target":null},"position":{"x":322.0,"y":-28.0},"guid":"92ad4cd1-e36f-4ae9-8a54-50b39d77af29","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"79ba4b15-72aa-4826-944b-4d9e9ccd1b36","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"once","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"5e62ca55-03d1-4a5c-9bc3-a21e8368f368","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"9f93cf08-1528-448a-bd86-82d049a86539","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
